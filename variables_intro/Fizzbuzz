@@ -1,0 +1,15 @@
+#Fizzbuzz
+#if the number is % 3 print "Fizz"
+#if the number is % 5 print "Buzz"
+#If number is divisbible by both then print "fizzbuzz"
+
+numbers= list(range(100))
+for number in numbers:
+    if number % 3 ==0 and number % 5 ==0:
+        print("Fizzbuzz"),
+    elif number % 3==0:
+        print("Fizz"),
+    elif number % 5 ==0:
+        print("Buzz")
+    else:
+        print(number)
