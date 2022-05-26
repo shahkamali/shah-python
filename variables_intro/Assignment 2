@@ -1,0 +1,7 @@
+class Budget:
+    def __int__(self, food, clothing, entertainment):
+        self.food= food
+        self.clothing = clothing
+        self.entertainment = entertainment
+
+    def deposit(self):
